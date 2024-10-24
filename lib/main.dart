@@ -1,4 +1,5 @@
-import 'package:belajar_flutter/dialog.dart';
+import 'package:belajar_flutter/dismissible.dart';
+// import 'package:belajar_flutter/dialog.dart';
 // import 'package:belajar_flutter/grid_view.dart';
 // import 'package:belajar_flutter/text_field_Controller.dart';
 // import 'package:belajar_flutter/text_field.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Belajar Flutter',
-      home: DialogWidget(),
+      home: DismissibleWidget(),
     );
   }
 }
